@@ -15,8 +15,6 @@
     buy.purchaseIt=function (itemIndex) {
       ShoppingListCheckOffService.purchased(itemIndex);
       }
-    //buy.list=ShoppingListCheckOffService.listempty();
-console.log(buy.items);
 
 
   }
@@ -50,18 +48,7 @@ console.log(buy.items);
           quantity:"7"
         },
       ];
-      // service.listempty=function () {
-      //   if (item.isempty()){
-      //     console.log("hhh");
-      //     return true;
-      //   }
-      //
-      //   else {
-      //     console.log("hhhppp");
-      //     return false;
-      //   }
-      // };
-      //
+     
       var purchase=[];
       service.pur=function () {
         return purchase;
